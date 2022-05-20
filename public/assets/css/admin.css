@@ -1,0 +1,55 @@
+#cate{
+    border-radius: 0px;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid grey;
+}
+#cate:hover{
+    border: 1px solid transparent;
+    background-color: grey;
+    color: white;
+}
+#name{
+    direction: rtl;
+    border-radius: 0px;
+    outline: none;
+    border: 1px solid lightgrey;
+}
+#name:focus{
+    box-shadow: none;
+    border: 1px solid cornflowerblue;
+}
+#subs{
+    border: 1px solid lightgrey;
+    border-radius: 0px;
+    margin: 5px;
+    outline: none;
+}
+#subs:focus{
+    box-shadow: none;
+}
+#alerts{
+    border-radius: 0px;
+    background-color: #88f843;
+    color: #1f201e;
+    font-weight: bold;
+}
+#alertsdelete{
+    border-radius: 0px;
+    background-color: #fa6c64;
+    color: #1f201e;
+    font-weight: bold;
+}
+#btnedit{
+    border-radius: 0px;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid lightgrey;
+
+}
+#startid{
+    color: red;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid lightgrey;
+}

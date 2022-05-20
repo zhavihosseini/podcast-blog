@@ -1,0 +1,256 @@
+@font-face {
+    font-family: Vazir;
+    src: url('public/font/Vazir.eot');
+    src: url('public/font/Vazir.eot?#iefix') format('public/font/Vazir-opentype'),
+    url('/font/Vazir.woff') format('woff'),
+    url('public/font/Vazir.ttf') format('truetype');
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('public/font/Vazir-Light.eot');
+    src: url('public/font/Vazir-Light.eot?#iefix') format('public/font/Vazir-opentype'),
+    url('public/font/Vazir-Light.woff') format('woff'),
+    url('public/font/Vazir-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: Yekan;
+    src: url('./public/font/Yekan.eot');
+    src: url('./public/font/Yekan.eot?#iefix') format('./public/font/Yekan-opentype'),
+    url('./font/Yekan.woff') format('woff'),
+    url('./public/font/Yekan.ttf') format('truetype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MateSC-Regular';
+url('MateSC-Regular.ttf') format('truetype');
+}
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+}
+
+body {
+    font-family: Vazir;
+    background-color: #ffffff;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.card-signin {
+    border: 0;
+}
+
+.card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.card-signin .card-body {
+    padding: 2rem;
+}
+
+.form-signin {
+    width: 100%;
+}
+
+.form-signin .btn {
+    font-size: 80%;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.form-label-group input {
+    height: auto;
+    border-radius: 25px;
+}
+.form-label-group input:focus {
+    border: 1px solid dodgerblue;
+    box-shadow: none;
+}
+.form-label-group>input,
+.form-label-group>label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    /* Override default `<label>` margin */
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::placeholder {
+    color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown)~label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 10px;
+    color: #777;
+    text-align: right;
+}
+
+.btn-google {
+    color: white;
+    background-color: #ea4335;
+    width: 100%;
+}
+
+.btn-facebook {
+    color: white;
+    background-color: #3b5998;
+}
+
+/* Fallback for Edge
+-------------------------------------------------- */
+
+@supports (-ms-ime-align: auto) {
+    .form-label-group>label {
+        display: none;
+    }
+    .form-label-group input::-ms-input-placeholder {
+        color: #777;
+    }
+}
+#subid{
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Vazir;
+    font-weight: bold;
+    background-color: #39a0ff;
+    color: white;
+}
+#subidv{
+    width: 100%;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Vazir;
+    background-color: #9990ff;
+    color: white;
+}
+/* Fallback for IE
+-------------------------------------------------- */
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .form-label-group>label {
+        display: none;
+    }
+    .form-label-group input:-ms-input-placeholder {
+        color: #777;
+    }
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #4f88ff;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #4f88ff;
+}
+#h5g{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+#cardt1{
+    font-size: 28px;
+    font-weight: normal;
+}
+#drf{
+    text-align: right;
+}
+
+#usernamelabel{
+    text-align: right;
+}
+#mb31{
+    text-align: right;
+}
+#cvv{
+    direction: rtl;
+    text-align: right;
+}
+#gvb1{
+    text-align: right;
+
+}
+#name,#username,#email,#password,#password_confirmation{
+    text-align: right;
+    direction: rtl;
+}
+#subid{
+    width: 100%;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Vazir;
+    font-weight: bold;
+    background-color: #39a0ff;
+    color: white;
+}
+#subidv{
+    width: 100%;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Vazir;
+    background-color: #9990ff;
+    font-weight: normal;
+    color: white;
+}
